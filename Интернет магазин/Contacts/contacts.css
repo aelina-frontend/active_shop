@@ -1,0 +1,353 @@
+.button1{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: #4D4B4B;
+    color :#FFFFFF;
+}
+
+.logoPicture {
+    width: 7%;
+    height: 45px;
+    margin-left: 2%;
+    display: inline-block
+}
+
+.logotext {
+    width: 10%;
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;
+    display: inline-block
+}
+
+.menu {
+    display: inline-block;
+    width: 30%;
+    height: 20px;
+    margin-left: 10%;
+}
+.menu li {
+    display: inline;
+    margin-left: 3%;
+}
+.menu a {
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+.menu a:hover {
+    color: #969292;
+}
+.current {
+    font-family: 'Varela';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: #969292;
+    text-decoration: underline;
+    text-decoration-color: #969292;
+}
+.button2 {
+    box-sizing: border-box;
+    width: 5%;
+    height: 42px;
+    margin:2%;
+    background: #D9D9D9;
+    border: 1px solid #484646;
+    border-radius: 13px;
+    }
+
+.button2:hover:before {
+    width: 5%;
+    height: 42px;
+    border-radius: 13px;
+}
+.icon1 {
+    width: 5%;
+    height: 5%;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.icon1 a {
+    display: inline;
+    margin-left: 2%;
+}
+.line {
+    width: 100%;
+    height: 0px;
+    border: 2px solid rgba(171, 168, 186, 0.5);
+}
+.button3 {
+    width: 35%;
+    height: 80%;
+    margin-top: 5%;
+    margin-left: 2%;
+    background: #FFFFFF;
+    border: 3px solid rgba(171, 168, 186, 0.5);
+    border-radius: 40px;
+}
+.ourContacts {
+    width: 40%;
+    height: 31px;
+    margin-top: 1%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+}
+.location {
+    width: 12%;
+    height: 49px;
+    margin-top: 8%;
+}
+.locationText {
+    width: 40%;
+    height: 26px;
+    margin-top: 10%;
+    margin-left: 3%;
+    margin-right: 30%;
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+.house {
+    width: 12%;
+    height: 49px;
+    margin-top: 8%;
+}
+.houseText {
+    width: 40%;
+    height: 26px;
+    margin-top: 1%;
+    margin-left: 1%;
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+.setting {
+    width: 49px;
+    height: 49px;
+    left: 59px;
+    top: 229px;
+}
+.email {
+    width: 49px;
+    height: 49px;
+    left: 59px;
+    top: 317px;
+}
+
+.settingText {
+    width: 288px;
+    height: 26px;
+    left: 123px;
+    top: 242px;
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+.settingText2 {
+    width: 338px;
+    height: 26px;
+    left: 122px;
+    top: 277px;
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+.emailText {
+    width: 250px;
+    height: 26px;
+    left: 123px;
+    top: 336px;
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+.button4 {
+    width: 276px;
+    height: 63px;
+    left: 136px;
+    top: 648px;
+    background: linear-gradient(5.91deg, #73B7DF 39.91%, rgba(193, 199, 202, 0) 110.33%);
+    border: 3px solid rgba(171, 168, 186, 0.5);
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 18px;
+}
+.phone2 {
+    left: 9.35%;
+    right: 9.37%;
+    top: 9.38%;
+    bottom: 9.38%;
+}
+.phoneNumber {
+    width: 148px;
+    height: 26px;
+    left: 202px;
+    top: 667px;
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+.onSocialMedia {
+    position: absolute;
+    width: 234px;
+    height: 26px;
+    left: 158px;
+    top: 733px;
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.whatsapp2 {
+    left: 8.34%;
+    right: 8.33%;
+    top: 8.33%;
+    bottom: 8.33%;
+}
+.facebook {
+    left: 19.25%;
+    right: 79.87%;
+    top: 67.45%;
+    bottom: 30.55%;
+}
+.instagram {
+    left: 22.47%;
+    right: 75.82%;
+    top: 67.45%;
+    bottom: 30.52%;
+}
+.phone {
+    width: 31px;
+    height: 31px;
+    left: 580px;
+    top: 195px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transform: matrix(-1, -0.04, -0.04, 1, 0, 0);
+}
+.phoneText {
+    width: 238px;
+    height: 31px;
+    left: 620px;
+    top: 194px;
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #EF0C0C;
+}
+.location-filled {
+    width: 32px;
+    height: 32px;
+    left: 897px;
+    top: 190px;
+}
+.location-filledText {
+    width: 268px;
+    height: 31px;
+    left: 937px;
+    top: 194px;
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+}
+.lineOfPhone {
+    width: 232px;
+    height: 0px;
+    left: 610px;
+    top: 237px;
+    border: 3px solid rgba(171, 168, 186, 0.5);
+}
+.lineOfLocation {
+    width: 291px;
+    height: 0px;
+    left: 896px;
+    top: 237px;
+    border: 3px solid rgba(171, 168, 186, 0.5);
+}
+.mainText {
+    width: 597px;
+    height: 31px;
+    left: 560px;
+    top: 254px;
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+}
+.mainText2 {
+    width: 778px;
+    height: 83px;
+    left: 588px;
+    top: 296px;
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #3C3A3A;
+}
+.HorizontalLine {
+    width: 55px;
+    height: 0px;
+    left: 535px;
+    top: 335px;
+    border: 3px solid rgba(239, 12, 12, 0.5);
+    transform: rotate(90deg);
+}
+.map {
+    width: 744px;
+    height: 429px;
+    left: 566px;
+    top: 382px;
+    border: 2px solid rgba(171, 168, 186, 0.5);
+    border-radius: 20px;
+}
+.button5 {
+    width: 276px;
+    height: 63px;
+    left: 787px;
+    top: 679px;
+    background: linear-gradient(5.91deg, #73B7DF 39.91%, rgba(193, 199, 202, 0) 110.33%);
+    border: 3px solid rgba(171, 168, 186, 0.5);
+    filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 18px;
+} 
