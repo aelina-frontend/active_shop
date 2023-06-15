@@ -7,10 +7,10 @@
 }
 
 .logoPicture {
-    width: 7%;
-    height: 45px;
-    margin-left: 2%;
-    display: inline-block
+    width: 07.33%;
+    height: 04.78%;
+    left: 03.38%;
+    top: 05.57%;
 }
 
 .logotext {
@@ -79,15 +79,19 @@
     margin-left: 2%;
 }
 .line {
+    position: absolute;
     width: 100%;
-    height: 0px;
+    height: 0%;
+    left: 0%;
+    top: 15.61%;
     border: 2px solid rgba(171, 168, 186, 0.5);
 }
 .button3 {
-    width: 35%;
-    height: 80%;
-    margin-top: 5%;
-    margin-left: 2%;
+    width: 37.04%;
+    height: 47.95%;
+    margin-left: 02.56%;
+    margin-top: 12.01%;
+    
     background: #FFFFFF;
     border: 3px solid rgba(171, 168, 186, 0.5);
     border-radius: 40px;
