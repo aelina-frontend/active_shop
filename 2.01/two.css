@@ -116,7 +116,7 @@ body {
 .button3 {
     width: 84.33%;
     height: 85.41%;
-    margin-top: 19.18%;
+    top: 12.01%;
     left: 02.56%;
     background: #FFFFFF;
     border: 3px solid rgba(171, 168, 186, 0.5);
@@ -125,7 +125,7 @@ body {
     .ourContacts {
         width: 37%;
         height: 31px;
-        margin-top: 3%;
+        margin-top: 05.66%;
         margin-left: 26.66%;
         font-family: 'Varela';
         font-style: normal;
@@ -247,12 +247,11 @@ body {
             line-height: 26px;
             color: #000000;
         }
-    } 
         .onSocialMedia {
-            width: 46.24%;
-            height: 04.33%;
-            margin-top: 03.66%;
-            margin-left: 24.30%;
+            width: 234px;
+            height: 26px;
+            left: 158px;
+            top: 733px;
             font-family: 'Varela';
             font-style: normal;
             font-weight: 400;
@@ -260,22 +259,12 @@ body {
             line-height: 26px;
             color: #000000;
         }
-        .icon2 {
-            width: 5%;
-            height: 5%;
-            margin-left: 3%;
-            margin-top: 2%;
-        }
-        .icon2 a {
-            display: inline;
-            margin-left: 2%;
-        }
 
-        /* .whatsapp2 {
-            width: 0.63%;;
-            height: 0.53%;
-            margin-top: 0.2%;
-            margin-left: 33.59%;
+        .whatsapp2 {
+            left: 8.34%;
+            right: 8.33%;
+            top: 8.33%;
+            bottom: 8.33%;
         }
         .facebook {
             left: 19.25%;
@@ -288,8 +277,8 @@ body {
             right: 75.82%;
             top: 67.45%;
             bottom: 30.52%;
-        } */
-    
+        }
+    } 
 }
 /* .Middle {
  height: 625px;
@@ -298,116 +287,204 @@ body {
  display: inline-block;
 } */
 .Right {
- height: 761px;
- width: 56.07%;
- background-color: #03a66a;
- display: inline-block;
-}
-.phone {
-    width: 31px;
-    height: 31px;
-    left: 580px;
-    top: 195px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    transform: matrix(-1, -0.04, -0.04, 1, 0, 0);
-}
-.phoneText {
-    width: 238px;
-    height: 31px;
-    left: 620px;
-    top: 194px;
-    font-family: 'Varela';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 31px;
-    color: #EF0C0C;
-}
-.location-filled {
-    width: 32px;
-    height: 32px;
-    left: 897px;
-    top: 190px;
-}
-.location-filledText {
-    width: 268px;
-    height: 31px;
-    left: 937px;
-    top: 194px;
-    font-family: 'Varela';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 31px;
-    color: #000000;
-}
-.lineOfPhone {
-    width: 232px;
-    height: 0px;
-    left: 610px;
-    top: 237px;
-    border: 3px solid rgba(171, 168, 186, 0.5);
-}
-.lineOfLocation {
-    width: 291px;
-    height: 0px;
-    left: 896px;
-    top: 237px;
-    border: 3px solid rgba(171, 168, 186, 0.5);
-}
-.mainText {
-    width: 597px;
-    height: 31px;
-    left: 560px;
-    top: 254px;
-    font-family: 'Varela';
-    font-style: normal;
-    font-weight: 550;
-    font-size: 24px;
-    line-height: 31px;
-    color: #000000;
-}
-.mainText2 {
-    width: 778px;
-    height: 83px;
-    left: 588px;
-    top: 296px;
-    font-family: 'Varela';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    color: #3C3A3A;
-}
-.HorizontalLine {
-    width: 55px;
-    height: 0px;
-    left: 535px;
-    top: 335px;
-    border: 3px solid rgba(239, 12, 12, 0.5);
-    transform: rotate(90deg);
-}
-.map {
-    width: 744px;
-    height: 429px;
-    left: 566px;
-    top: 382px;
-    border: 2px solid rgba(171, 168, 186, 0.5);
-    border-radius: 20px;
-}
-.button5 {
-    width: 276px;
-    height: 63px;
-    left: 787px;
-    top: 679px;
+    height: 761px;
+    width: 56.07%;
+    background-color: #FFFFFF;
+    display: inline-block;
+   }
+   .phone {
+       width: 03.87%;
+       height: 04.07%;
+       margin-left: 1%;
+       margin-top: 5%;
+       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+       transform: matrix(-1, -0.04, -0.04, 1, 0, 0);
+   }
+   .phoneText {
+    float: left;
+       width: 35%;
+       height: 04.07%;
+       margin-top: 5%;
+       font-family:  "Varela";
+       font-style: normal;
+       font-weight: 400;
+       font-size: 20px;
+       line-height: 31px;
+       color: #EF0C0C;
+   }
+   .location-filled {
+       float: center;
+       width: 03.87%;
+       height: 04.07%;
+       margin-left: 40%;
+       margin-top: 5%;
+   }
+   .location-filledText {
+    float: center;
+    text-align: center;
+       width: 35%;
+       height: 04.07%;
+       margin-left: 1%;
+       margin-top: 0%;
+       font-family: "Varela";
+       font-style: normal;
+       font-weight: 400;
+       font-size: 20px;
+       line-height: 31px;
+       color: #000000;
+   }
+   .lineOfPhone {
+       width: 35%;
+       height: 0px;
+       margin-left: 1%;
+       margin-top: 1%;
+       border: 3px solid rgba(171, 168, 186, 0.5);
+   }
+   .lineOfLocation {
+       width: 35%;
+       height: 0px;
+       margin-left: 4%;
+       margin-top: 1%;
+       border: 3px solid rgba(171, 168, 186, 0.5);
+   }
+   .mainText {
+       width: 80%;
+       height: 02.69%;
+       margin-left: 2%;
+       margin-top: 01.47%;
+       font-family: 'Varela';
+       font-style: normal;
+       font-weight: 550;
+       font-size: 22px;
+       line-height: 31px;
+       color: #000000;
+   }
+   .HorizontalLine {
+        width: 10%;
+        height: 0px;
+        margin-left: 0px;
+        margin-top: 6%;
+        border: 3px solid rgba(239, 12, 12, 0.5);
+        transform: rotate(90deg);
+    }
+   .mainText2 {
+       width: 80%;
+       height: 07.22%;
+       margin-left: 2%;
+       margin-top: 1%;
+       font-family: "Varela";
+       font-style: normal;
+       font-weight: 400;
+       font-size: 20px;
+       line-height: 26px;
+       color: #3C3A3A;
+   }
+   .container {
+    position: relative;
+    width: 100%;
+    max-width: 744px;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+  }
+  
+  .container .btn {
+    position: absolute;
+    width: 30%;
+    height: 10%;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     background: linear-gradient(5.91deg, #73B7DF 39.91%, rgba(193, 199, 202, 0) 110.33%);
-    border: 3px solid rgba(171, 168, 186, 0.5);
+    border: 2px solid rgba(171, 168, 186, 0.5);
     filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 18px;
-} 
-
-.Footer {
- height: 200px;
- width: 100%;
- background-color: #025059;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }
+   /* .container {
+       width: 93%;
+       height: 56%;;
+   }
+   .container .btn {
+       position: absolute;
+       margin-top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #555;
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        text-align: center;
 }
+
+.container .btn:hover {
+  background-color: rgb(92, 75, 150);
+} */
+
+   /* .button5 {
+       width: 34.5%;
+       height: 08.27%;
+       margin-left: 27.62%;
+       margin-top: 39.02%;
+       background: linear-gradient(5.91deg, #73B7DF 39.91%, rgba(193, 199, 202, 0) 110.33%);
+       border: 3px solid rgba(171, 168, 186, 0.5);
+       filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+       border-radius: 18px;
+   }  */
+    
+   .Footer {
+       height: 200px;
+       width: 100%;
+       background-color: #4D4B4B;
+   }
+   .footer-left {
+       margin-top: 2%;
+       margin-left: 2%;
+       text-align: left;
+       float: left;
+       font-family: "Varela";
+       font-style: normal;
+       font-weight: 400;
+       font-size: 16px;
+       line-height: 26px;
+       color:#FFFFFF;
+   }
+   .footer-right {
+       margin-top: 2%;
+       margin-right: 2%;
+       text-align: right;
+       float: right;
+       font-family: "Varela";
+       font-style: normal;
+       font-weight: 400;
+       font-size: 16px;
+       line-height: 26px;
+       color:#FFFFFF;
+   }
+   .footer-centered {
+       margin-top: 2%;
+       text-align: center;
+       font-family: "Varela";
+       font-style: normal;
+       font-weight: 400;
+       font-size: 16px;
+       line-height: 26px;
+       color:#FFFFFF;
+   }
+   .logoPicture2 {
+       width: 05.63%;
+       height: 03.65%;
+       margin-left: 2%;
+       margin-top: 1%;
+   }
