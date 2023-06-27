@@ -114,27 +114,68 @@ body {
 }
 
 .WrapMiddle {
-    width: 100%;
+    width: 85.375rem;
+    height: 283.5625rem;
     font-size: 0;
-}
-.Left {
-    height: 609px;
-    width: 804px;
+   }
+   .Left {
+    height: 287.3175rem;
+    width: 5.25rem;
+    margin-top: 0.5%;
     background-color: #03a66a;
     display: inline-block;
+   }
+   .Middle {
+    height: 287.3175rem;
+    width: 65.5rem;
+    margin-top: 0.5%;
+    background-color: #bbbf90;
+    display: inline-block;
+   }
+.middle-left {
+    float: left;
+    width: 32.71rem;
+    height: 45.37rem;
+    background-color: rgb(201, 17, 94);
+}
+.mainPicture {
+    width: 31.5rem;
+    height: 35.5625rem;
+    margin-left: 0rem;
+    margin-top: 5.81rem;
+    flex-shrink: 0;
+    border-radius: 39px;
+    border: 3px solid rgba(55, 54, 54, 0.70);
+    background: url(<path-to-image>), lightgray -104.731px 0px / 133.889% 100% no-repeat;
+}
+.middle-right {
+    float: right;
+    width: 32rem;
+    height: 45.37rem;
+    background-color: rgb(255, 187, 0);
 }
 
-.Right {
-    height: 625px;
-    width: 10.41%;
-    background-color: #03a66a;
-    display: inline-block;
+.like {
+    width: 1.5rem;
+    height: 1.25rem;
+    flex-shrink: 0;
+    border: #000000;
 }
+.Right {
+    height: 287.3175rem;
+    width: 13rem;
+    margin-top: 0.5%;
+    background-color: #13d13d;
+    display: inline-block;
+} 
+
 
 .Footer {
-    height: 200px;
-    width: 100%;
+    width: 85.375rem;
+    height: 13rem;
+    margin-top: 0.5%;
     background-color: #4D4B4B;
+    flex-shrink: 0;
 }
 .footer-left {
     margin-top: 1%;
@@ -161,7 +202,7 @@ body {
     color:#FFFFFF;
 }
 .footer-centered {
-    margin-top: %;
+    margin-top: 1%;
     text-align: center;
     font-family: "Varela";
     font-style: normal;
