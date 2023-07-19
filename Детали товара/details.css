@@ -1,20 +1,11 @@
-@media (min-width: 1200px) {
-    .rwd-MastHead {
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 1000px;
-    margin: 0 auto;
-    }
+
+body{
+    background-image: -webkit-linear-gradient(top, #edecec);
+      background-image: linear-gradient(top, #edecec, #cecbc9);
 }
-@import url("tiny.css") screen and (min-width:400px) and (maxwidth: 
-560px);
-html,
-body {
- margin: 0;
- padding: 0;
-}
+
 .Wrap {
- max-width: 1366px;
+ max-width: 1300px;
  margin: 0 auto;
 }
 .Header {
@@ -58,7 +49,7 @@ body {
     margin-left: 10%;
 }
 .menu li {
-    display: inline;
+    display: inline-block;
     margin-left: 3%;
 }
 .menu a {
@@ -70,20 +61,20 @@ body {
     color: #000000;
 }
 .menu a:hover {
-    color: #969292;
+    color: #0088cc;
 }
 .current {
-    font-family: 'Varela';
+    font-family: "Varela";
     font-weight: 700;
     font-style: normal;
     font-size: 16px;
-    color: #969292;
+    color: #0088cc;
     text-decoration: underline;
     text-decoration-color: #969292;
 }
 .button2 {
     box-sizing: border-box;
-    width: 07.33%;
+    width: 15%;
     height: 42px;
     top: 05.39%;
     left: 69.92%;
@@ -91,21 +82,74 @@ body {
     border: 1px solid #484646;
     border-radius: 13px;
     }
-    .button2:hover {
-        background-color: rgb(171, 165, 193);
-        text-decoration: #D9D9D9;
-      }
-
-.icon1 {
-    width: 5%;
-    height: 5%;
-    margin-left: 3%;
-    margin-top: 2%;
+    
+.button2 {
+    background-image: -webkit-linear-gradient(top,#f4f1ee, #fff);
+    background-image: linear-gradient(top, #f4f1ee, #fff);
+    border-radius: 20%;
+    border: 1px solid #c5c1c1;
+    box-shadow: 0px 4px 5px 0px rgba(126, 124, 124, 0.3), inset 0px 4px 1px 1px white,inset 0px -3px 1px 1px rgba(204,198,197,.5);
+    float: left;
+    height: 45px;
+    margin: 0 30px 30px 0;
+    margin-top: 0.5rem;
+    position: relative;
+    width: 70px;
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+}
+.button2:after {
+    color: #e9e6e4;
+    content: "";
+    display: block;
+    font-size: 30px;
+    height: 30px;
+    text-decoration: none;
+    text-shadow: 0px -1px 1px #bdb5b4, 1px 1px 1px white;
+    position: absolute;
+    width: 30px;
+}
+.button2:hover {
+    background-image: -webkit-linear-gradient(top, #fff, #f4f1ee);
+    background-image: linear-gradient(top, #fff, #f4f1ee);
+    color: #0088cc;
+}
+.button2:active {
+    background-image: -webkit-linear-gradient(top, #efedec, #f7f4f4);
+    background-image: linear-gradient(top, #efedec, #f7f4f4);
+	box-shadow: 0 3px 5px 0 rgba(0,0,0,.4), inset 0px -3px 1px 1px rgba(204,198,197,.5);
+}
+.button2:active:after{
+    color:#dbd2d2;
+    text-shadow: 0px -1px 1px #bdb5b4, 0px 1px 1px white;
+}
+.btn {
+    float: right;
+    margin-top: 1rem;
+    margin-left: 0.2rem;
+    background-color: #0088cc;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: RoyalBlue;
+}
+/* .icon1 {
+    width: 4%;
+    height: 4%;
+    margin-left: 8%;
+    margin-top: 3%;
 }
 .icon1 a {
     display: inline;
     margin-left: 2%;
 }
+.icon1:hover {
+    border-color: #0088cc;
+} */
 .line {
     width: 100%;
     max-width: 1344px;
@@ -118,58 +162,436 @@ body {
     height: 283.5625rem;
     font-size: 0;
    }
-   .Left {
+   /* .Left {
     height: 287.3175rem;
-    width: 5.25rem;
+    width: 06.14%;
     margin-top: 0.5%;
     background-color: #03a66a;
     display: inline-block;
-   }
+   } */
    .Middle {
-    height: 287.3175rem;
-    width: 65.5rem;
+    height: 36rem;
+    width: 76.72%;
     margin-top: 0.5%;
-    background-color: #bbbf90;
+    margin-left: 06.14%;
+    margin-right: 15.22%;
     display: inline-block;
    }
-.middle-left {
+.block1 {
     float: left;
-    width: 32.71rem;
+    width: 32rem;
     height: 45.37rem;
-    background-color: rgb(201, 17, 94);
+    margin-top: 9%;
+    background-color: #FFFFFF;
 }
 .mainPicture {
-    width: 31.5rem;
-    height: 35.5625rem;
-    margin-left: 0rem;
-    margin-top: 5.81rem;
+    width: 523px;
+    height: 569px;
     flex-shrink: 0;
+    margin-left: 0.3rem;
     border-radius: 39px;
-    border: 3px solid rgba(55, 54, 54, 0.70);
-    background: url(<path-to-image>), lightgray -104.731px 0px / 133.889% 100% no-repeat;
 }
-.middle-right {
+/* width: 523px;
+height: 569px; 46
+flex-shrink: 0; */
+.img1 {
+    width: 6.875rem;
+    height: 6.5rem;
+    margin-top: 1.2rem;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    border: 0.2px solid #faf7f7cc;
+}
+.img1:hover {
+    border-color: #EF1212CC;
+}
+.img2 {
+    width: 6.875rem;
+    height: 6.5rem;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+    flex-shrink: 0;
+    border: 0.2px solid #faf7f7cc;
+}
+.img2:hover {
+    border-color: #EF1212CC;
+}
+.img3 {
+    width: 6.875rem;
+    height: 6.5rem;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+    flex-shrink: 0;
+    background-color: #FFF;
+    border: 0.2px solid #faf7f7cc;
+}
+.img3:hover {
+    border-color: #EF1212CC;
+}
+.img4 {
+    width: 6.875rem;
+    height: 6.5rem;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+    flex-shrink: 0;
+    border: 0.2px solid #faf7f7cc;
+}
+.img4:hover {
+    border-color: #EF1212CC;
+}
+
+.block2 {
     float: right;
     width: 32rem;
     height: 45.37rem;
-    background-color: rgb(255, 187, 0);
+    margin-top: 9%;
+    background-color: #FFFFFF;
 }
 
-.like {
-    width: 1.5rem;
-    height: 1.25rem;
-    flex-shrink: 0;
-    border: #000000;
+.btn1 {
+    margin-left: 5px;
+    background-color: #0088cc;
+    border: none;
+    color: white;
+    padding: 9px 13px;
+    font-size: 16px;
+    cursor: pointer;
 }
-.Right {
-    height: 287.3175rem;
-    width: 13rem;
-    margin-top: 0.5%;
-    background-color: #13d13d;
+.btn1:hover {
+    background-color: RoyalBlue;
+}
+
+.price {
+    margin-top: 5.56rem;
+    color: #000;
+    font-family: "Varela";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.03rem;
+}
+.price:hover {
+    color: #EF1212CC;
+}
+.size {
+    margin-top: 3.31rem;
+    color: #000;
+    font-family: "Varela";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.btn2 {
+    width: 2.8125rem;
+    height: 1.875rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    flex-shrink: 0;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(116, 115, 115, 0.70);
+    background: #FFF;
+}
+.btn2:hover {
+    color: rgba(239, 18, 18, 0.80);
+    border-color: #EF1212CC;
+}
+.color {
+    margin-top: 2.5rem;
+    color: #000;
+    font-family: "Varela";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.white {
+    width: 6.75rem;
+    height: 6.375rem;
+    margin-top: 1rem;
+    flex-shrink: 0;
+    border-radius: 0.875rem;
+    border: 0.2px solid #faf7f7cc;
+}
+.white:hover {
+    border-color: #EF1212CC;
+}
+.blue {
+    width: 6.75rem;
+    height: 6.375rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    flex-shrink: 0;
+    border-radius: 0.875rem;
+    border: 0.2px solid #faf7f7cc;
+}
+.blue:hover {
+    border-color: #EF1212CC;
+}
+.buttonHolder {
+    margin-top: 30px;
+    margin-left: 5px;
+    width: 300px;
+}
+.button {
+    background-image: -webkit-linear-gradient(top,#f4f1ee, #fff);
+    background-image: linear-gradient(top, #f4f1ee, #fff);
+    border-radius: 10%;
+    box-shadow: 0px 4px 5px 0px #4c4c4c4d, inset 0px 4px 1px 1px white,inset 0px -3px 1px 1px rgba(204,198,197,.5);
+    float: left;
+    height: 50px;
+    margin: 0 15px 20px 0;
+    position: relative;
+    width: 60px;
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+}
+.button:after {
+    color: #e9e6e4;
+    content: "";
+    display: block;
+    font-size: 20px;
+    height: 30px;
+    text-decoration: none;
+    text-shadow: 0px -1px 1px #bdb5b4, 1px 1px 1px white;
+    position: absolute;
+    width: 30px;
+}
+.minus:after{
+    content: "\2014";
+    left:21px;
+    top:16px;
+}
+.number:after {
+    content: "1";
+    left: 27px;
+    top: 16px;
+}
+
+.plus:after {
+    content: "\271A";
+    left: 22px;
+    top: 15px;
+}
+
+.button2:hover {
+    background-image: -webkit-linear-gradient(top, #fff, #f4f1ee);
+    background-image: linear-gradient(top, #fff, #f4f1ee);
+    color: #0088cc;
+}
+
+.number:hover:after {
+    color: #f99e4e;
+    text-shadow: 0px 0px 6px #f99e4e;
+}
+.minus:hover:after {
+    color: #eb2f2f;
+    text-shadow: 0px 0px 6px #eb2f2f;
+}
+.plus:hover:after {
+    color: #83d244;
+    text-shadow: 0px 0px 6px #83d244;
+}
+.button:active {
+    background-image: -webkit-linear-gradient(top, #efedec, #f7f4f4);
+    background-image: linear-gradient(top, #efedec, #f7f4f4);
+	box-shadow: 0 3px 5px 0 rgba(0,0,0,.4), inset 0px -3px 1px 1px rgba(204,198,197,.5);
+}
+.button:active:after{
+    color:#dbd2d2;
+    text-shadow: 0px 1px 1px #bdb5b4, 0px 1px 1px white;
+}
+.block3 {
+    width: 32rem;
+    height: auto;
+    float: left;
+}
+.btn3 {
+    float: left;
+    margin-top: 6rem;
+    margin-left: 5px;
+    background-color: #0088cc;
+    border: none;
+    color: white;
+    padding: 10px 14px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn3:hover {
+    background-color: RoyalBlue;
+}
+.fa-basket:before {
+    content:"\f291";
+}
+.middle-footer {
+    height: 230rem;
+    width: 100%;
+    margin-right: 15.22%;
     display: inline-block;
+    background-color: #FFFFFF;
+}
+.description {
+    margin-top: 1rem;
+    margin-left: 45%;
+    color: #000;
+    font-family: "Varela";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} 
+.mainText {
+    margin-top: 0.5rem;
+    color: #000;
+    text-align: center;
+    font-family: "Varela";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 114%; /* 27.36px */
+    letter-spacing: -0.72px;
+}
+.information {
+    color: #000;
+    font-family: "Varela";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-top: 3rem;
+    margin-left: 35%;
+}
+.productInformation {
+    width: 643px;
+    height: 184px;
+    flex-shrink: 0;
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+.productInformationPicture {
+    width: 193px;
+    height: 207px;
+    flex-shrink: 0;
+    border: 1px solid #FFFCFC;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+.sizeChartText {
+    color: #000;
+    font-family: "Varela";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.54px;
+    margin-top: 3rem;
+    margin-left: 40%;
+}
+.sizeChart {
+    width: 934px;
+    height: 337px;
+    flex-shrink: 0;
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+}
+.twoColors {
+    width: 932px;
+    height: 721px;
+    flex-shrink: 0;
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+.proportionalChartText {
+    color: #000;
+    font-family: "Varela";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.54px;   
+    margin-top: 3rem;
+    margin-left: 33%;
+}
+.proportionalChart {
+    width: 890px;
+    height: 220.237px;
+    flex-shrink: 0;
+    margin-top: 1.5rem;
+    margin-left: 5rem;
+}
+.mainText2 {
+    color: #2B2A2A;
+    text-align: center;
+    font-family: "Varela";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 124%; /* 29.76px */
+    margin-top: 5rem;
+}
+.frontAndBackViews {
+    width: 892px;
+    height: 435px;
+    flex-shrink: 0;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+.text1 {
+    float: left;
+    color: #9E9F9D;
+    font-family: "Varela";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.54px;
+    margin-left: 12rem;
+}
+.text2 {
+    float: right;
+    color: #9E9F9D;
+    font-family: Varela;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.54px;
+    margin-right: 13rem;
+}
+.clothingDetailsText {
+    color: #000;
+    font-family: Varela;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    margin-top: 10rem;
+    margin-left: 37%;
+}
+/* .detailspictures {
+    margin-top: 3rem;
+    margin-left: 2rem;
+} */
+.leftPicture {
+    float: left;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+.rightPicture {
+    float: right;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
 } 
 
-
+.footPicture {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
 .Footer {
     width: 85.375rem;
     height: 13rem;
@@ -216,4 +638,25 @@ body {
     height: 03.65%;
     margin-left: 2%;
     margin-top: 1%;
+}
+
+.block {
+    width: 800px;
+    height: 400px;
+    background-color: blueviolet;
+}
+
+/* Для экранов с шириной до 800px */
+@media (max-width: 800px) {
+    .block {
+        width: 400px;
+        background-color:coral;
+    }
+}
+
+@media (max-width: 600px) {
+    .block {
+        width: 300px;
+        background-color:rgb(91, 93, 221);
+    }
 }

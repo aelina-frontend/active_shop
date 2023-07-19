@@ -4,9 +4,16 @@
     <title>Детали товаров</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="details.css">
+    <link rel="stylesheet" href="media.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 <body>
+
+    <div class="block"></div>
+
     <div class="Wrap">
         <header class="Header">
             <div class="button1">Мы отправляем заказы по всему миру</div>
@@ -21,53 +28,98 @@
             </ul>
         </span>
         <button id="MYIDS" class="button2" onclick=""document.location="'catalogPage/catalogPage.html'">Войти</button>
-       
-                <span class="icon1">
-                    <a href="https://webref.ru"><img src="лайк иконка.png" alt="нравится"></a>
-                    <a href="https://webref.ru"><img src="карзинка.png" alt="корзинка"></a>
-                    <a href="https://webref.ru"><img src="легкий эмейл.png" alt="эмейл"></a>
-                    <a href="https://webref.ru"><img src="человечек.png" alt="человечек"></a>
-                </span>
-                <img class="line" src="линия.png" alt="линия">
+        
+            <button class="btn" onclick=""><i class="fa fa-heart"></i></button>
+            <button class="btn" onclick=""><i class="fa fa-bars"></i></button>
+            <button class="btn" onclick=""><i class="fa fa-trash"></i></button>
+            <button class="btn" onclick=""><i class="fa fa-email"></i></button>
+                
+                <img class="line" src="line.png" alt="line">
         </header>
         <div class="WrapMiddle">
             <aside class="Left"></aside>
             <main class="Middle">
                 <span>
-                <nav class="middle-left">
+                <nav class="block1">
                     <div><img class="mainPicture" src="main pic.png" alt="pictureOfclothes" align="left"/></div>
+                    
                 </nav>
-                <div class="middle-right">
-                    <span class="icons">
-                        <p>
-                            <img class="like" src="нравится.png" alt="нравится" align="left"/>
-                            <p class="likeText" align="left">Нравится</p>
-                        </p>
-                        <p><img class="star" src="звезда.png" alt="звезда.png" align="center"/>Подборки</p>
-                        <p><img class="share" src="поделиться.png" alt="поделиться" align="right"/>Поделиться</p>
-
-                    </span>
+                <div class="block2">
+                    <p>Icon buttons with text:</p>
+                    <button class="btn1"><i class="fa fa-heart"></i>Нравится</button>
+                    <button class="btn1"><i class="fa fa-star"></i> Подборки</button>
+                    <button class="btn1"><i class="fa fa-share"></i> Поделиться</button>
                 </span>
+                <div>
+                    <div class="price" text-align="left">Цена: 3700 KGS</div>
+                </div>
+                <div class="size" text-align="left">Размер:</div>
+                <span>
+                    <button class="btn2">M</button>
+                    <button class="btn2">L</button>
+                    <button class="btn2">XL</button>
+                    <button class="btn2">XXL</button>
+                </span>
+                <div class="color" text-align="left">Цвет:</div>
+                <span>
+                    <img class="white" src="white.png" alt="white" align="left"/>
+                    <img class="blue" src="blue.png" alt="blue" align="center"/>
+                </span>
+                <div class="buttonHolder">
+                    <a hrsef="#" class="button minus"></a> 
+                    <a href="#" class="button number"></a> 
+                    <a href="#" class="button plus"></a> 
+                </div>
+            <div class="block3">
+                <span>
+                    <img class="img1" src="1.png" alt="нравится" align="left"/>
+                    <img class="img2" src="2.png" alt="нравится" align="center"/>
+                    <img class="img3" src="3.png" alt="нравится" align="center"/>
+                    <img class="img4" src="4.png" alt="нравится" align="center"/>
+                </span>
+                <div>
+                    <button class="btn3"><i class="fa fa-shopping-basket"></i>ДОБАВИТЬ В КОРЗИНУ</button>
                 </div>
                 
-                    <!-- <p>
-                        <img class="like" src="нравится.png" alt="нравится" align="right"/>Нравится</p> -->
-                    <!-- <p><img class="star" src="звезда.png" alt="звезда.png" align="right"/>Подборки</p>
-                    <p><img class="share" src="поделиться.png" alt="поделиться" align="right"/>Поделиться</p> -->
+            </div>
+                </div>
+                <div class="middle-footer">
+                    <div class="description">Описание</div>
+                    <div class="mainText">Удобный, стильный и очень качественный выбор для повседневного использования.<br>Сезон модели: осень-весна и лето.</div>
+                    <div class="information">Информация о товаре</div>
+                    <span>
+                        <img class="productInformation" src="product information.png" alt="product information"/>
+                        <img class="productInformationPicture" src="product information picture.png" alt="product information picture"/>
+                    </span>
                     
-                    
-                    <!-- <p><img class="like" src="нравится.png" alt="нравится" align="right"/>Нравится</p>
-                    <p><img class="star" src="звезда.png" alt="звезда.png" align="right"/>Подборки</p>
-                    <p><img class="share" src="поделиться.png" alt="поделиться" align="right"/>Поделиться</p> -->
-               
+                    <div class="sizeChartText">Размерная сетка</div>
+                    <div><img class="sizeChart" src="size chart.png" alt="Размерная сетка"/></div>
+                    <div><img class="twoColors" src="two colors.png" alt="Два цвета"/></div>
+                    <div class="proportionalChartText">Пропорциональная таблица</div>
+                    <div><img class="proportionalChart" src="proportional chart.png" alt="Пропорциональная таблица"/></div>
+                    <div class="mainText2">Обязательно обратите внимание на другую расцветку,<br>не менее интересную и привлекательную</div>
+                    <div><img class="frontAndBackViews" src="front and back views.png" alt="вид спереди и сзади"/></div>
+                    <span>
+                        <p class="text1">вид спереди</p>
+                        <p class="text2">вид сзади</p>
+                    </span>
+                    <div class="clothingDetailsText">Детали одежды</div>
+                    <p class="detailspictures">
+                        <img class="leftPicture" src="left.png" alt="Фотография 1" width="479" height="345">
+                        <img class="rightPicture"src="right.png" alt="Фотография 2" width="479" height="345">
+                        <img class="footPicture"src="foot picture.png" alt="Фотография 3" width="1004" height="390">
+                       </p>
+                      
+                </div>
             </main>
             <aside class="Right"></aside>
             <footer class="Footer">
                 <div><img class="logoPicture2" src="logo.png" alt="AcademiaSHop"></div>
-                <p class="footer-left">ACADIA SHOP</p>
+                <p class="footer-left">ACADEMIA SHOP</p>
                 <p class="footer-right">Оформление заказа</br>Способ оплаты</br>Способ доставки</p>
                 <p class="footer-centered">Адрес: г. Бишкек, ул. Патриса Лумумбы 139б</br>Тел.:+(996)503 31 03 99</p>
             </footer>
         </div>
+        <script src="details.js"></script>
 </body>
 </html>

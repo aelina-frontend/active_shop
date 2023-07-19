@@ -1,0 +1,21 @@
+/* Мудия запрос для экранов с шириной до 1366px */
+@media (max-width: 1366px) {
+    
+}
+
+/* Мудия запрос для экранов с шириной до 760px */
+@media (max-width: 760px) {
+    .Middle {
+        height: 181rem;
+        width: 100%;
+        margin-top: 0.2%;
+        margin-left: 2px;
+        margin-right: 0;
+    }
+    .mainPicture {
+        width: 323px;
+        height: 369px;
+        flex-shrink: 0;
+        border-radius: 29px;
+    }
+}
