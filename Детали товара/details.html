@@ -3,55 +3,50 @@
 <head>
     <title>Детали товаров</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="details.css">
     <link rel="stylesheet" href="media.css">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
 <body>
-
-    <div class="block"></div>
-
-    <div class="Wrap">
-        <header class="Header">
-            <div class="button1">Мы отправляем заказы по всему миру</div>
-            <span><img class="logoPicture" src="logo.png" alt="AcademiaSHop"></span>
-        <span class="logotext" text-align="center">ACADEMIA SHOP</span>
-        <span>
+    <header class="header">
+        <img class="logoPicture" src="logo.png" alt="AcademiaSHop">
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="nav">
             <ul class="menu">
                 <li><a href="#">ГЛАВНАЯ</a></li>
-                <li><a href="#">КАТАЛОГ</a></li>
-                <li class="current">КОНТАКТЫ</a></li>
-                <li><a href="#">ПОМОШЬ</a></li>
+                <li><a href="#">КАТАЛОГ</a> </li>
+                <li><a href="#">КОНТАКТЫ</a></li>
+                <li><a href="#">ПОМОЩЬ</a></li>
             </ul>
-        </span>
-        <button id="MYIDS" class="button2" onclick=""document.location="'catalogPage/catalogPage.html'">Войти</button>
-        
-            <button class="btn" onclick=""><i class="fa fa-heart"></i></button>
-            <button class="btn" onclick=""><i class="fa fa-bars"></i></button>
-            <button class="btn" onclick=""><i class="fa fa-trash"></i></button>
-            <button class="btn" onclick=""><i class="fa fa-email"></i></button>
-                
-                <img class="line" src="line.png" alt="line">
-        </header>
+        </nav>
+    </header>
+
+    <!-- <div class="block"></div>
+    <div class="Wrap">
         <div class="WrapMiddle">
             <aside class="Left"></aside>
-            <main class="Middle">
+            <main class="Middle"> -->
                 <span>
                 <nav class="block1">
                     <div><img class="mainPicture" src="main pic.png" alt="pictureOfclothes" align="left"/></div>
-                    
+                    <div>
+                        
+                </div>
                 </nav>
+                
                 <div class="block2">
-                    <p>Icon buttons with text:</p>
                     <button class="btn1"><i class="fa fa-heart"></i>Нравится</button>
                     <button class="btn1"><i class="fa fa-star"></i> Подборки</button>
                     <button class="btn1"><i class="fa fa-share"></i> Поделиться</button>
-                </span>
+                
                 <div>
-                    <div class="price" text-align="left">Цена: 3700 KGS</div>
+                </span>
+                <div class="productName" text-align="left">Кофта</div>
+                <div class="price" text-align="left">Цена: 3700 KGS</div>
                 </div>
                 <div class="size" text-align="left">Размер:</div>
                 <span>
@@ -70,16 +65,21 @@
                     <a href="#" class="button number"></a> 
                     <a href="#" class="button plus"></a> 
                 </div>
-            <div class="block3">
-                <span>
-                    <img class="img1" src="1.png" alt="нравится" align="left"/>
-                    <img class="img2" src="2.png" alt="нравится" align="center"/>
-                    <img class="img3" src="3.png" alt="нравится" align="center"/>
-                    <img class="img4" src="4.png" alt="нравится" align="center"/>
-                </span>
-                <div>
+            </div>
+                <div class="block3">
+                    <span>
+                            <img class="img1" src="1.png" alt="нравится" align="left"/>
+                            <img class="img2" src="2.png" alt="нравится" align="center"/>
+                            <img class="img3" src="3.png" alt="нравится" align="center"/>
+                            <img class="img4" src="4.png" alt="нравится" align="center"/>
+                        </span>
+                </div>
+                <div class="block4">
                     <button class="btn3"><i class="fa fa-shopping-basket"></i>ДОБАВИТЬ В КОРЗИНУ</button>
                 </div>
+            </div>
+                
+                
                 
             </div>
                 </div>
@@ -105,14 +105,14 @@
                     </span>
                     <div class="clothingDetailsText">Детали одежды</div>
                     <p class="detailspictures">
-                        <img class="leftPicture" src="left.png" alt="Фотография 1" width="479" height="345">
-                        <img class="rightPicture"src="right.png" alt="Фотография 2" width="479" height="345">
-                        <img class="footPicture"src="foot picture.png" alt="Фотография 3" width="1004" height="390">
+                        <img class="leftPicture" src="left.png" alt="Фотография 1">
+                        <img class="rightPicture"src="right.png" alt="Фотография 2">
+                        <img class="footPicture"src="foot picture.png" alt="Фотография 3">
                        </p>
                       
                 </div>
             </main>
-            <aside class="Right"></aside>
+            
             <footer class="Footer">
                 <div><img class="logoPicture2" src="logo.png" alt="AcademiaSHop"></div>
                 <p class="footer-left">ACADEMIA SHOP</p>
