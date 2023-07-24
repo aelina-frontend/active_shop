@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); /* import font */
  
+/* *{
+    border-color: #83d244;
+    border-width: 1px;
+    border-style: solid;
+} */
 :root{
     --white: #f9f9f9;
     --black: #36383F;
@@ -12,7 +17,6 @@
     box-sizing: border-box;
 }
 body{
-    width: 1366px;
     background-color: white;
     font-family: "Poppins", sans-serif;
 }
@@ -108,31 +112,17 @@ ul{
     transform: rotate(45deg);
     top:0;
 }
-@media (min-width: 768px) {
-    .nav{
-        max-height: none;
-        top: 0;
-        position: relative;
-        float: right;
-        width: fit-content;
-    }
-    .menu li{
-        float: left;
-    }
-    .menu a:hover{
-        background-color: transparent;
-        color: var(--gray);
- 
-    }
- 
-    .hamb{
-        display: none;
-    }
-}
-.Wrap {
- max-width: 1300px;
- margin: 0 auto;
-}
+
+/* .Wrap {
+    max-width: 1366px;
+    margin: 0 auto;
+   }
+   
+   .WrapMiddle {
+    width: 100%;
+    height: 800px;
+    font-size: 0;
+   } */
 
 /* .WrapMiddle {
     width: 85.375rem;
@@ -156,25 +146,68 @@ ul{
    } */
 .block1 {
     float: left;
-    width: 44.4%;
-    height: 607px;
+    width: 40%;
+    height: auto;
     margin-top: 5%;
+    margin-left: 10%;
     background-color: #FFFFFF;
 }
 .mainPicture {
-    width: 523px;
-    height: 569px;
-    flex-shrink: 0;
-    margin-left: 30%;
+    width: 90%;
+    height: auto;
+    margin-left: 10%;
     border-radius: 39px;
+}
+.img1 {
+    width: 15%;
+    margin-top: 18px;
+    margin-left: 15%;
+    flex-shrink: 0;
+    border-radius: 1rem;
+    border: 0.2px solid #faf7f7cc;
+}
+.img1:hover {
+    border-color: #EF1212CC;
+}
+.img2 {
+    width: 15%;
+    margin-top: 18px;
+    margin-left: 8px;
+    flex-shrink: 0;
+    border: 0.2px solid #faf7f7cc;
+}
+.img2:hover {
+    border-color: #EF1212CC;
+}
+.img3 {
+    width: 15%;
+    margin-top: 18px;
+    margin-left: 8px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    border: 0.2px solid #faf7f7cc;
+}
+.img3:hover {
+    border-color: #EF1212CC;
+}
+.img4 {
+    width: 15%;
+    margin-top: 18px;
+    margin-left: 8px;
+    flex-shrink: 0;
+    border: 0.2px solid #faf7f7cc;
+}
+.img4:hover {
+    border-color: #EF1212CC;
 }
 
 .block2 {
     float: right;
-    width: 27.96%;
-    height: 607px;
-    margin-top: 5%;
-    margin-right: 27%;
+    width: 40%;
+    height: auto;
+    margin-top: 6%;
+    margin-left: 2%;
+    margin-right: 8%;
     background-color: #FFFFFF;
 }
 
@@ -193,33 +226,32 @@ ul{
 .productName {
     color: #000;
     font-family: "Varela";
-    font-size: 32px;
+    font-size: 34px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
     letter-spacing: 0.48px;
-    margin-top: 33px;
+    margin-top: 40px;
 }
 .price {
-    margin-top: 32px;
+    margin-top: 30px;
     color: #000;
     font-family: "Varela";
-    font-size: 32px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 0.03rem;
 }
 .price:hover {
     color: #EF1212CC;
 }
 .size {
-    margin-top: 34px;
+    margin-top: 30px;
     color: #000;
     font-family: "Varela";
-    font-size: 20px;
+    font-size: 24px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 550;
     line-height: normal;
 }
 
@@ -238,17 +270,17 @@ ul{
     border-color: #EF1212CC;
 }
 .color {
-    margin-top: 40px;
+    margin-top: 30px;
     color: #000;
     font-family: "Varela";
-    font-size: 20px;
+    font-size: 24px;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 550;
     line-height: normal;
 }
 .white {
-    width: 6.75rem;
-    height: 6.375rem;
+    width: 76px;
+    height: 70px;
     margin-top: 15px;
     flex-shrink: 0;
     border-radius: 14px;
@@ -258,10 +290,10 @@ ul{
     border-color: #EF1212CC;
 }
 .blue {
-    width: 6.75rem;
-    height: 6.375rem;
+    width: 76px;
+    height: 70px;
     margin-top: 15px;
-    margin-left: 02.49%;
+    margin-left: 1%;
     flex-shrink: 0;
     border-radius: 14px;
     border: 0.2px solid #faf7f7cc;
@@ -269,148 +301,23 @@ ul{
 .blue:hover {
     border-color: #EF1212CC;
 }
-.buttonHolder {
-    margin-top: 30px;
-    margin-left: 5px;
-    width: 300px;
-}
-.button {
-    background-image: -webkit-linear-gradient(top,#f4f1ee, #fff);
-    background-image: linear-gradient(top, #f4f1ee, #fff);
-    border-radius: 10%;
-    box-shadow: 0px 4px 5px 0px #4c4c4c4d, inset 0px 4px 1px 1px white,inset 0px -3px 1px 1px rgba(204,198,197,.5);
-    float: left;
-    height: 50px;
-    margin: 0 15px 20px 0;
-    position: relative;
-    width: 60px;
-    -webkit-transition: all .1s linear;
-    transition: all .1s linear;
-}
-.button:after {
-    color: #e9e6e4;
-    content: "";
-    display: block;
-    font-size: 20px;
-    height: 30px;
-    text-decoration: none;
-    text-shadow: 0px -1px 1px #bdb5b4, 1px 1px 1px white;
-    position: absolute;
-    width: 30px;
-}
-.minus:after{
-    content: "\2014";
-    left:21px;
-    top:16px;
-}
-.number:after {
-    content: "1";
-    left: 27px;
-    top: 16px;
-}
-
-.plus:after {
-    content: "\271A";
-    left: 22px;
-    top: 15px;
-}
-
-.button2:hover {
-    background-image: -webkit-linear-gradient(top, #fff, #f4f1ee);
-    background-image: linear-gradient(top, #fff, #f4f1ee);
-    color: #0088cc;
-}
-
-.number:hover:after {
-    color: #f99e4e;
-    text-shadow: 0px 0px 6px #f99e4e;
-}
-.minus:hover:after {
-    color: #eb2f2f;
-    text-shadow: 0px 0px 6px #eb2f2f;
-}
-.plus:hover:after {
-    color: #83d244;
-    text-shadow: 0px 0px 6px #83d244;
-}
-.button:active {
-    background-image: -webkit-linear-gradient(top, #efedec, #f7f4f4);
-    background-image: linear-gradient(top, #efedec, #f7f4f4);
-	box-shadow: 0 3px 5px 0 rgba(0,0,0,.4), inset 0px -3px 1px 1px rgba(204,198,197,.5);
-}
-.button:active:after{
-    color:#dbd2d2;
-    text-shadow: 0px 1px 1px #bdb5b4, 0px 1px 1px white;
-}
 
 .block3 {
-    float: left;
-    width: 44.4%;
-    height: 169px;
-}
-.img1 {
-    width: 6.875rem;
-    height: 6.5rem;
-    margin-top: 18px;
-    margin-left: 32%;
-    flex-shrink: 0;
-    border-radius: 1rem;
-    border: 0.2px solid #faf7f7cc;
-}
-.img1:hover {
-    border-color: #EF1212CC;
-}
-.img2 {
-    width: 6.875rem;
-    height: 6.5rem;
-    margin-top: 18px;
-    margin-left: 1rem;
-    flex-shrink: 0;
-    border: 0.2px solid #faf7f7cc;
-}
-.img2:hover {
-    border-color: #EF1212CC;
-}
-.img3 {
-    width: 6.875rem;
-    height: 6.5rem;
-    margin-top: 18px;
-    margin-left: 1rem;
-    flex-shrink: 0;
-    background-color: #FFF;
-    border: 0.2px solid #faf7f7cc;
-}
-.img3:hover {
-    border-color: #EF1212CC;
-}
-.img4 {
-    width: 6.875rem;
-    height: 6.5rem;
-    margin-top: 18px;
-    margin-left: 1rem;
-    flex-shrink: 0;
-    border: 0.2px solid #faf7f7cc;
-}
-.img4:hover {
-    border-color: #EF1212CC;
-}
-.block4 {
     float: right;
-    width: 27.96%;
-    height: 169px;
-    margin-right: 20%;
+    width: 40%;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 8%;
 }
 .btn3 {
     float: left;
-    margin-top: 18px;
-    margin-left: 5px;
+    margin-top: 3%;
     background-color: #0088cc;
     border: none;
     color: white;
-    padding: 13px 17px;
-    font-size: 20px;
+    padding: 17px 21px;
+    font-size: 22px;
     cursor: pointer;
-    border-radius: 10px;
 }
 .btn3:hover {
     background-color: RoyalBlue;
@@ -419,15 +326,15 @@ ul{
     content:"\f291";
 }
 .middle-footer {
-    height: 230rem;
     width: 100%;
+    height: auto;
     margin-right: 15.22%;
     display: inline-block;
     background-color: #FFFFFF;
 }
 .description {
     margin-top: 1rem;
-    margin-left: 45%;
+    text-align: center;
     color: #000;
     font-family: "Varela";
     font-size: 35px;
@@ -455,21 +362,22 @@ ul{
     line-height: normal;
     letter-spacing: 0.6px;
     margin-top: 3rem;
-    margin-left: 40%;
+    text-align: center;
 }
 .productInformation {
-    width: 643px;
-    height: 184px;
+    width: 50%;
+    height: auto;
     flex-shrink: 0;
-    margin-top: 30px;
-    margin-left: 20%;
+    margin-top: 25px;
+    margin-left: 18%;
 }
+
 .productInformationPicture {
-    width: 193px;
-    height: 207px;
+    width: 13%;
+    height: auto;
     flex-shrink: 0;
     border: 1px solid #FFFCFC;
-    margin-top: 30px;
+    margin-top: 25px;
     margin-left: 00.95%;
 }
 .sizeChartText {
@@ -480,20 +388,19 @@ ul{
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.54px;
-    margin-top: 3rem;
-    margin-left: 40%;
+    margin-top: 30px;
+    text-align: center;
 }
 .sizeChart {
-    width: 934px;
-    height: 337px;
+    width: 60%;
+    height: auto;
+    margin-top: 1.5rem;
+    margin-left: 20%;
     flex-shrink: 0;
     margin-top: 30px;
-    margin-left: 20%;
 }
 .twoColors {
-    width: 932px;
-    height: 721px;
-    flex-shrink: 0;
+    width: 60%;
     margin-top: 1rem;
     margin-left: 20%;
 }
@@ -505,13 +412,11 @@ ul{
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.54px;   
-    margin-top: 3rem;
-    margin-left: 33%;
+    margin-top: 30px;
+    text-align: center;
 }
 .proportionalChart {
-    width: 890px;
-    height: 220.237px;
-    flex-shrink: 0;
+    width: 60%;
     margin-top: 1.5rem;
     margin-left: 20%;
 }
@@ -524,11 +429,10 @@ ul{
     font-weight: 400;
     line-height: 124%; /* 29.76px */
     margin-top: 60px;
-    margin-right: 11.93%;
+    text-align: center;
 }
 .frontAndBackViews {
-    width: 892px;
-    height: 435px;
+    width: 60%;
     flex-shrink: 0;
     margin-top: 42px;
     margin-left: 20%;
@@ -537,23 +441,23 @@ ul{
     float: left;
     color: #9E9F9D;
     font-family: "Varela";
-    font-size: 35px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.54px;
-    margin-left: 22.98%;
+    margin-left: 20%;
 }
 .text2 {
     float: right;
     color: #9E9F9D;
-    font-family: Varela;
-    font-size: 36px;
+    font-family: "Varela";
+    font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.54px;
-    margin-right: 40%;
+    margin-right: 20%;
 }
 .clothingDetailsText {
     color: #000;
@@ -564,7 +468,7 @@ ul{
     line-height: normal;
     letter-spacing: 0.6px;
     margin-top: 80px;
-    margin-left: 37%;
+    text-align: center;
 }
 /* .detailspictures {
     margin-top: 3rem;
@@ -573,32 +477,30 @@ ul{
 .leftPicture {
     float: left;
     margin-top: 3rem;
-    margin-left: 13%;
-    width: 479px;
-    height: 345px;
+    margin-left: 20%;
+    width: 30%;
+    height: auto;
     flex-shrink: 0;
 }
 .rightPicture {
     float: right;
     margin-top: 3rem;
-    margin-left: 00.80%;
-    margin-right: 33%;
-    width: 512px;
-    height: 344px;
+    margin-right: 15%;
+    width: 30%;
+    height: auto;
     flex-shrink: 0;
 } 
 
 .footPicture {
     margin-top: 1rem;
-    margin-left: 13%;
-    width: 1004px;
-    height: 390px;
+    margin-left: 20%;
+    width: 65%;
     flex-shrink: 0;
 }
 .Footer {
-    width: 85.375rem;
-    height: 13rem;
-    margin-top: 0.5%;
+    width: 100%;
+    height: 15rem;
+    margin-top: 2%;
     background-color: #4D4B4B;
     flex-shrink: 0;
 }
@@ -610,7 +512,7 @@ ul{
     font-family: "Varela";
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 26px;
     color:#FFFFFF;
 }
@@ -622,7 +524,7 @@ ul{
     font-family: "Varela";
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 26px;
     color:#FFFFFF;
 }
@@ -632,13 +534,19 @@ ul{
     font-family: "Varela";
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 26px;
     color:#FFFFFF;
 }
 .logoPicture2 {
-    width: 05.63%;
-    height: 03.65%;
+    width: 95px;
+    height: 47px;
     margin-left: 2%;
     margin-top: 1%;
+    color: #FFF;
+    font-size: 40px;
+    font-family: "Varela";
+    font-style: normal;
+    font-weight: 550;
+    text-decoration-color: #f9f9f9;
 }
