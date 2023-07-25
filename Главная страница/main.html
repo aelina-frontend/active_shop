@@ -15,18 +15,27 @@
         <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
         <nav class="nav">
             <ul class="menu">
-                <li><a href="#">ГЛАВНАЯ</a></li>
+                <li class="current"><a href="#">ГЛАВНАЯ</a></li>
                 <li><a href="#">КАТАЛОГ</a></li>
                 <li><a href="#">КОНТАКТЫ</a></li>
                 <li><a href="#">ПОМОЩЬ</a></li>
+                <li><a href="#">ВОЙТИ</a></li>
             </ul>
         </nav>
     </header>
-    <div class="d1">
-        <form>
-            <input type="text" placeholder="Искать здесь...">
-            <button type="submit"></button>
-        </form>
+    <div class="block">
+        <span>
+            <button class="btn1" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Вход</button>
+            <a href="registration.html" class="btn1">Вход</a>
+            <button class="btn2" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Регистрация</button>
+
+            <div class="d1">
+                <form>
+                    <input type="text" placeholder="Искать здесь...">
+                    <button type="submit"></button>
+                </form>
+            </div>
+        </span>
     </div>
     <h1 class="h1">КАТАЛОГ</h1>
 
@@ -103,6 +112,24 @@
             <div class="price">Цена: 2550 сом</div>
             <div class="size">M, L, XL, XXL</div>
         </div>
+        <div class="wrappeBox">
+            <img class="pic13" src="13.png" alt="picture"/>
+            <div class="productName">Джинсовая куртка</div>
+            <div class="price">Цена: 4850 сом</div>
+            <div class="size">M, L, XL, XXL</div>
+        </div>
+        <div class="wrappeBox">
+            <img class="pic14" src="14.png" alt="picture"/>
+            <div class="productName">Куртка-бомбер</div>
+            <div class="price">Цена: 5750 сом</div>
+            <div class="size">M, L, XL, XXL</div>
+        </div>
+        <div class="wrappeBox">
+            <img class="pic15" src="15.png" alt="picture"/>
+            <div class="productName">Кожаная куртка</div>
+            <div class="price">Цена: 4850 сом</div>
+            <div class="size">M, L, XL, XXL</div>
+        </div>
     </div>
     <!-- <nav class="block">
         <span>
@@ -119,6 +146,6 @@
         <p class="footer-right">Оформление заказа</br>Способ оплаты</br>Способ доставки</p>
         <p class="footer-centered">Адрес: г. Бишкек, ул. Патриса Лумумбы 139б</br>Тел.:+(996)503 31 03 99</p>
     </footer>
-    <script src="details.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>

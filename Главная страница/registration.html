@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Вход и регистрация</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="registration.css">
+        <link rel="stylesheet" href="media3.css">
+    </head>
+    <body>
+        <!-- <header class="header">
+            <img class="logoPicture" src="logo.png" alt="AcademiaSHop">
+            <input class="side-menu" type="checkbox" id="side-menu" />
+            <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+            <nav class="nav">
+                <ul class="menu">
+                    <li><a href="main.html">ГЛАВНАЯ</a></li>
+                    <li><a href="#">КАТАЛОГ</a></li>
+                    <li><a href="#">КОНТАКТЫ</a></li>
+                    <li><a href="#">ПОМОЩЬ</a></li>
+                    <li class="current"><a href="#">>ВОЙТИ</a></li>
+                </ul>
+            </nav>
+        </header> -->
+        <div class="block1">
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Вход</button>
+
+            <div id="id01" class="modal">
+            
+            <form class="modal-content animate" action="/action_page.php">
+                <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+                <img src="img_avatar2.png" alt="Avatar" class="avatar">
+                </div>
+
+                <div class="container">
+                <label for="uname"><b>Логин</b></label>
+                <input type="text" placeholder="Введите логин" name="uname" required>
+
+                <label for="psw"><b>Пароль</b></label>
+                <input type="password" placeholder="Введите пароль" name="psw" required>
+                    
+                <button type="submit">Войти</button>
+                <!-- <button class="registration1">Зарегистрироваться</button> -->
+
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Запомнить меня
+                </label>
+                </div>
+
+                <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Отмена</button>
+                <span class="psw">Забыли <a href="#">пароль?</a></span>
+                </div>
+            </form>
+            </div>
+        </div>
+        <div class="block2">
+            <form action="action_page.php" style="border:1px solid #ccc">
+                <div class="container2">
+                    <h1>Регистрация</h1>
+                    <p>Пожалуйста, заполните эту форму, чтобы создать учетную запись.</p>
+                    <hr>
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Введите Email" name="email" required>
+                    <label for="psw"><b>Пароль</b></label>
+                    <input type="password" placeholder="Введите пароль" name="psw" required>
+                    <label for="psw-repeat"><b>Повторите пароль</b></label>
+                    <input type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember" style="margin-bottom: 15px;">Запомнить меня
+                    </label>
+                    <p>By creating an account you agree to our <a href="#" style="color: dodgerblue;">Terms & Privacy</a></p>
+
+                    <div class="clearfix2">
+                        <button type="button2" class="cancelbtn2">Отмена</button>
+                        <button type="submit2">Зарегистрироваться</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
