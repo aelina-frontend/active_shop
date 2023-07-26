@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 /* import font */
 
-* {
+/* * {
     border-color: #83d244;
     border-width: 1px;
     border-style: solid;
-}
+} */
 
 :root {
     --white: #f9f9f9;
@@ -137,6 +137,69 @@ ul {
     top: 0;
 }
 
+.btn1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+.btn1:hover {
+    opacity: 0.8;
+}
+.block1 {
+    margin-top: 20px;
+    margin-left: 1%;
+    float: left;
+}
+.block2 {
+    margin-top: 10px;
+    float: right;
+    width: 30%;
+}
+
+.form {
+  float: right;
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  margin-right: 10px;
+  padding: 30px 0
+
+}
+
+.d1 input {
+  width: 70%;
+  height: 42px;
+  padding-left: 10px;
+  border: 2px solid #7BA7AB;
+  border-radius: 5px;
+  outline: none;
+  background: #F9F0DA;
+  color: #9E9C9C;
+}
+.d1 button {
+  position: relative; 
+  top: 0;
+  right: 0px;
+  width: 25%;
+  height: 40px;
+  border: none;
+  background: #7BA7AB;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  margin-top: 2px;
+}
+.d1 button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 20px;
+  color: #F9F0DA;
+}
 .h1 {
     text-align: center;
     color: #000;
@@ -145,79 +208,16 @@ ul {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    margin-top: 60px;
 }
-
-form {
-    position: relative;
-    width: 300px;
-    margin: 0 auto;
-}
-
-.d1 {
-    width: 30%;
-    margin-left: 70%;
-
-}
-
-.d1 input {
-    float: right;
-    width: 90%;
-    height: 42px;
-    padding-left: 10px;
-    border: 2px solid #7BA7AB;
-    border-radius: 5px;
-    outline: none;
-    background: #F9F0DA;
-    color: #9E9C9C;
-}
-
-.d1 button {
-    position: absolute;
-    top: 0;
-    right: 0px;
-    width: 42px;
-    height: 42px;
-    border: none;
-    background: #7BA7AB;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-}
-
-.d1 button:before {
-    content: "\f002";
-    font-family: FontAwesome;
-    font-size: 16px;
-    color: #F9F0DA;
-}
-
-.btn1 {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    border-radius: 5px;
-}
-
-.btn1:hover {
-    opacity: 0.8;
-}
-
-.registration {
-    float: left;
-    margin-left: 5px;
-    position: absolute;
-    background-color: #7BA7AB;
-}
-
 .wrapper {
+    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .wrappeBox {
+    margin-top: 20px;
     max-width: 300px;
     flex: 1 1 300px;
     align-self: stretch;
