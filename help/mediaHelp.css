@@ -1,0 +1,91 @@
+@media (min-width: 768px) {
+    .nav{
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+    }
+    .menu li{
+        float: left;
+    }
+    .menu a:hover{
+        background-color: transparent;
+        color: var(--gray);
+ 
+    }
+ 
+    .hamb{
+        display: none;
+    }
+}
+
+@media (max-width: 364px) {
+    .h1 {
+        text-align: center;
+        font-size: 30px;
+        margin-left: 10%;
+    }
+    .h4 {
+        font-size: 18px;
+        margin-top: 25px;
+        margin-left: 2%;
+    }
+    .text {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+    .wrapper {
+        flex: 500px;
+        margin-top: 20px;
+    }
+    .box1 {
+        align-self: stretch;
+        width: 100%;
+     }
+    .box2 {
+        font-size: 18px;
+        margin-left: 6%;
+    }
+    .tex1 {
+        font-size: 20px;
+        margin-top: 25px;
+        font-weight: 500;
+    }
+    .tex2 {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .Footer {
+        height: 20rem;
+        margin-top: 3%;
+    }
+    .logoPicture2 {
+        float: center;
+        width: 30%;
+        margin-left: 35%;
+        margin-top: 3%;
+    }
+    .footer-left {
+        display: none;
+    }
+    .footer-right {
+        text-align: center;
+        margin-top: 2%;
+        margin-right: 25%;
+        margin-left: 15%;
+        font-size: 20px;
+    }
+    .footer-centered {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 5%;
+        font-family: "Varela";
+        font-style: normal;
+        font-weight: 400;
+        color: cadetblue;
+    }
+}
