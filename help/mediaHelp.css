@@ -23,38 +23,37 @@
 @media (max-width: 364px) {
     .h1 {
         text-align: center;
-        font-size: 30px;
+        font-size: 26px;
         margin-left: 10%;
-    }
-    .h4 {
-        font-size: 18px;
-        margin-top: 25px;
-        margin-left: 2%;
-    }
-    .text {
-        font-size: 20px;
-        margin-top: 25px;
-    }
-    .wrapper {
-        flex: 500px;
-        margin-top: 20px;
-    }
-    .box1 {
-        align-self: stretch;
-        width: 100%;
-     }
-    .box2 {
-        font-size: 18px;
-        margin-left: 6%;
-    }
-    .tex1 {
-        font-size: 20px;
-        margin-top: 25px;
         font-weight: 500;
     }
-    .tex2 {
-        font-size: 18px;
-        margin-top: 20px;
+    .h4 {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-left: 2%;
+        font-weight: 400;
+    }
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    .box1 {
+        width: 70%;
+    } 
+    .h3 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .box2 {
+        display: inline-block;
+        text-align: center;
+        color: #000;
+        font-family: Varela;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 164.352%;
     }
     .Footer {
         height: 20rem;
