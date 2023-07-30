@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 /* import font */
 
-* {
+/* * {
     border-color: #83d244;
     border-width: 1px;
     border-style: solid;
-}
+} */
 
 :root {
     --white: #f9f9f9;
