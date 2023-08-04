@@ -228,6 +228,12 @@ ul {
 
 .picBox {
     width: 100%;
+    cursor: pointer;
+}
+
+.picBox:hover {
+    transform: rotate(20deg);
+    transition: 1s;
 }
 
 .productName {

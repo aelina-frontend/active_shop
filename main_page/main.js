@@ -1,150 +1,119 @@
 
 var itemsList = [
     {
-        href: "C:/Users/aelin/OneDrive/Desktop/active_shop/details/details.html",
         src: "5.png",
         name: "Кофта",
         price: 3700,
-        size: "M, L, XL, XXL"
+        size: "M, L, XL, XXL",
+        id: 1
     },
     {
-        href: "C:/Users/aelin/OneDrive/Desktop/active_shop/details/details.html",
         src: "2.png",
         name: "Батник",
         price: 2700,
-        size: "M, L, XL, XXL"
+        size: "M, L, XL, XXL",
+        id: 2
     },
     {
-        href: "C:/Users/aelin/OneDrive/Desktop/active_shop/details/details.html",
         src: "3.png",
         name: "Гавайска рубашка",
         price: 2500,
-        size: "M, L, XL, XXL"
+        size: "M, L, XL, XXL",
+        id: 3
     },
     {
-        href: "C:/Users/aelin/OneDrive/Desktop/active_shop/details/details.html",
         src: "4.png",
         name: "Гавайска рубашка",
         price: 2500,
-        size: "M, L, XL, XXL"
+        size: "M, L, XL, XXL",
+        id: 4
     },
     {
-        href: "C:/Users/aelin/OneDrive/Desktop/active_shop/details/details.html",
         src: "1.png",
         name: "Футболка",
         price: 2500,
-        size: "M, L, XL, XXL"
+        size: "M, L, XL, XXL",
+        id: 5
     },
     {
-        href: "C:/Users/aelin/OneDrive/Desktop/active_shop/details/details.html",
         src: "6.png",
         name: "Кофта",
         price: 4450,
-        size: "M, L, XL, XXL"
+        size: "M, L, XL, XXL",
+        id: 6
     },
     {
-        href: "C:/Users/aelin/OneDrive/Desktop/active_shop/details/details.html",
         src: "7.png",
         name: "Куртка",
         price: 5850,
-        size: "M, L, XL, XXL"
+        size: "M, L, XL, XXL",
+        id: 7
     },
     {
-        href: "C:/Users/aelin/OneDrive/Desktop/active_shop/details/details.html",
         src: "8.png",
         name: "Рубашка",
         price: 5100,
-        size: "M, L, XL, XXL"
+        size: "M, L, XL, XXL",
+        id: 8
     },
     {
-        href: "C:/Users/aelin/OneDrive/Desktop/active_shop/details/details.html",
         src: "9.png",
         name: "Футболка",
         price: 2700,
-        size: "M, L, XL, XXL"
+        size: "M, L, XL, XXL",
+        id: 9
     },
+    
     {
-        href: "C:/Users/aelin/OneDrive/Desktop/active_shop/details/details.html",
-        src: "6.png",
-        name: "Кофта",
-        price: 4450,
-        size: "M, L, XL, XXL"
-    },
-    {
-        href: "C:/Users/aelin/OneDrive/Desktop/active_shop/details/details.html",
-        src: "7.png",
-        name: "Куртка",
-        price: 5850,
-        size: "M, L, XL, XXL"
-    },
-    {
-        href: "C:/Users/aelin/OneDrive/Desktop/active_shop/details/details.html",
-        src: "8.png",
-        name: "Рубашка",
-        price: 5100,
-        size: "M, L, XL, XXL"
-    },
-    {
-        href: "C:/Users/aelin/OneDrive/Desktop/active_shop/details/details.html",
         src: "9.png",
         name: "Футболка",
         price: 2700,
-        size: "M, L, XL, XXL"
+        size: "M, L, XL, XXL",
+        id: 10
     },
     {
-        href: "C:/Users/aelin/OneDrive/Desktop/active_shop/details/details.html",
         src: "10.png",
         name: "Батник",
         price: 2900,
         size: "M, L, XL, XXL",
+        id: 11
     },
     {
-        href: "C:/Users/aelin/OneDrive/Desktop/active_shop/details/details.html",
         src: "11.png",
         name: "Футболка",
         price: 2400,
         size: "M, L, XL, XXL",
+        id: 12
     },
     {
-        href: "C:/Users/aelin/OneDrive/Desktop/active_shop/details/details.html",
         src: "12.png",
         name: "Футболка",
         price: 2550,
         size: "M, L, XL, XXL",
+        id: 13
     },
     {
-        href: "C:/Users/aelin/OneDrive/Desktop/active_shop/details/details.html",
         src: "13.png",
         name: "Джинсовая куртка",
         price: 4850,
         size: "M, L, XL, XXL",
+        id: 14
     },
     {
-        href: "C:/Users/aelin/OneDrive/Desktop/active_shop/details/details.html",
         src: "14.png",
         name: "Куртка-бомбер",
         price: 5750,
         size: "M, L, XL, XXL",
+        id: 15
     },
     {
-        href: "C:/Users/aelin/OneDrive/Desktop/active_shop/details/details.html",
         src: "15.png",
         name: "Кожаная куртка",
         price: 4850,
         size: "M, L, XL, XXL",
+        id: 16
     },
 ];
-
-function loadVitrin2()
-{
-    var parent = document.getElementById('wrapper');
-    for (let i = 0; i < 2; i++) {
-        var div = document.createElement('div');
-        div.setAttribute('style', 'border: 10px solid black; width: 100px; height: 100px;');
-        parent.appendChild(div);
-    }
-}
-
 
 function loadVitrin() {
     console.log('Click!!!');
@@ -157,13 +126,14 @@ function loadVitrin() {
             isWas = true;
             var wrappeBox = document.createElement('div');
             wrappeBox.setAttribute('class', 'wrappeBox');
-            var href = document.createElement('a');
-            href.setAttribute('href', itemsList[i].href);
+            // var href = document.createElement('a');
+            // href.setAttribute('href', itemsList[i].href);
             var img = document.createElement('img');
             img.setAttribute('class', 'picBox');
-            img.setAttribute('src', itemsList[i].src);
+            img.setAttribute('src', "img/" + itemsList[i].src);
             img.setAttribute('alt', 'picture');
-            href.appendChild(img);
+            img.setAttribute('onclick',"location.href='../details/details.html?" + itemsList[i].id + "'");
+            // href.appendChild(img);
             var productName = document.createElement('div');
             productName.setAttribute('class', 'productName');
             productName.innerHTML = itemsList[i].name;
@@ -174,7 +144,8 @@ function loadVitrin() {
             size.setAttribute('class', 'size');
             size.innerHTML = itemsList[i].size;
 
-            wrappeBox.appendChild(href);
+            // wrappeBox.appendChild(href);
+            wrappeBox.appendChild(img);
             wrappeBox.appendChild(productName);
             wrappeBox.appendChild(price);
             wrappeBox.appendChild(size);
