@@ -61,7 +61,17 @@
         margin-right: 2%;
     }
     .information {
-        margin-top: 5%;
+        margin-top: 10%;
+    }
+    .tabelDesc {
+        font-size: 16px;
+    }
+    .tabelDesc2 {
+        font-size: 16px;
+        margin: 20px 0px 0px 20%;
+    }
+    .tabelDesc3 {
+        font-size: 16px;
     }
     .productInformation  {
         margin-top: 4%;
@@ -125,6 +135,15 @@
         margin-top: 3%;
         margin-left: 5%;
     }
+    .sizeChartText {
+        display: none;
+    }
+    .tabelDesc2 {
+        display: none;
+    }
+    .tabelDesc3 {
+        margin: 20px 0px 0px 7%;
+    }
     .white {
         margin-left: 5%;
     }
@@ -146,7 +165,7 @@
         font-size: 20px;
     }
     .information {
-        font-size: 30px;
+        font-size: 24px;
     }
     .productInformation {
         width: 70%;
@@ -173,7 +192,7 @@
         margin-left: 10%;
     }
     .proportionalChartText {
-        font-size: 30px;
+        font-size: 24px;
         margin-top: 1%;
     }
     .proportionalChart {
@@ -200,7 +219,7 @@
         margin-right: 13%;
     }
     .clothingDetailsText {
-        font-size: 30px;
+        font-size: 24px;
         margin-top: 8%;
     } 
     .leftPicture {

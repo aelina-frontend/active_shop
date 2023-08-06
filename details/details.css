@@ -278,18 +278,20 @@ ul{
     font-weight: 550;
     line-height: normal;
 }
-.white {
+.colorImage {
     width: 76px;
     height: 70px;
     margin-top: 15px;
+    margin-left: 5px;
     flex-shrink: 0;
     border-radius: 14px;
     border: 0.2px solid #faf7f7cc;
 }
-.white:hover {
+.colorImage:hover {
+    border-radius: 20px;
     border-color: #EF1212CC;
 }
-.blue {
+/* .blue {
     width: 76px;
     height: 70px;
     margin-top: 15px;
@@ -300,7 +302,7 @@ ul{
 }
 .blue:hover {
     border-color: #EF1212CC;
-}
+} */
 
 .block3 {
     float: right;
@@ -491,6 +493,37 @@ ul{
     flex-shrink: 0;
 } 
 
+.tabelDesc{
+    margin: 20px 0px 0px 25%;
+    width: 50%;
+    float: center;
+    border: 1px solid #1b1b1b;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tabelDesc2 {
+    margin: 20px 0px 0px 25%;
+    width: 50%;
+    float: center;
+    border: 1px solid #000;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tabelDesc3 {
+    margin: 20px 0px 0px 25%;
+    width: 50%;
+    float: center;
+    border: 1px solid #000;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+tr,td,th,tbody{
+    border: 1px solid #000;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+}
 .footPicture {
     margin-top: 1rem;
     margin-left: 20%;

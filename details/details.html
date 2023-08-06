@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="details.css">
     <link rel="stylesheet" href="media.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -32,12 +32,9 @@
         <div class="WrapMiddle">
             <main class="Middle">
                 <nav class="block1">
-                    <div><img class="mainPicture" src="main pic.png" alt="pictureOfclothes" align="left" /></div>
-                    <span>
-                        <img class="img1" src="img/1.png" alt="нравится" align="left" />
-                        <img class="img2" src="img/2.png" alt="нравится" align="center" />
-                        <img class="img3" src="img/3.png" alt="нравится" align="center" />
-                        <img class="img4" src="img/4.png" alt="нравится" align="center" />
+                    <div id="mainPicture"></div>
+                    <span id="miniPictures">
+
                     </span>
                 </nav>
                 <div class="block2">
@@ -45,72 +42,152 @@
                     <button class="btn1"><i class="fa fa-star"></i> Подборки</button>
                     <button class="btn1"><i class="fa fa-share"></i> Поделиться</button>
 
-                    <div class="productName" text-align="left">КОФТА</div>
-                    <div class="price" text-align="left">Цена: 3700 KGS</div>
+                    <div id="name" class="productName" text-align="left">КОФТА</div>
+                    <div id="price" class="price" text-align="left">Цена: 3700 KGS</div>
                     <div class="size" text-align="left">Размер:</div>
-                    <span>
-                        <button class="btn2">M</button>
-                        <button class="btn2">L</button>
-                        <button class="btn2">XL</button>
-                        <button class="btn2">XXL</button>
+                    <span id="sizes">
+
                     </span>
                     <div class="color" text-align="left">Цвет:</div>
-                    <span>
-                        <img class="white" src="img/white.png" alt="white" align="left" />
-                        <img class="blue" src="img/blue.png" alt="blue" align="center" />
+                    <span id="colors">
+                        <!-- УБРАТЬ ЭТИ ДВА ИЗОБРАЖЕНИЯ -->
+                        <!-- <img class="colorImage" src="img/white.png" alt="white" align="left" />
+                        <img class="colorImage" src="img/blue.png" alt="blue" align="center" /> -->
                     </span>
                     <!-- <div>
                         <button class="btn3"><i class="fa fa-shopping-basket"></i>ДОБАВИТЬ В КОРЗИНУ</button>
                     </div> -->
-                    
+
                 </div>
                 <div class="block3">
                     <div>
                         <button class="btn3"><i class="fa fa-shopping-basket"></i>ДОБАВИТЬ В КОРЗИНУ</button>
                     </div>
                 </div>
-                </div>
                 <div class="middle-footer">
                     <div class="description">Описание</div>
-                    <div class="mainText">Удобный, стильный и очень качественный выбор для повседневного использования.<br>Сезон
+                    <div id="desc" class="mainText">Удобный, стильный и очень качественный выбор для повседневного
+                        использования.<br>Сезон
                         модели: осень-весна и лето.</div>
                     <div class="information">Информация о товаре</div>
-                    <span>
+                    <!-- <span id="productInfo">
                         <img class="productInformation" src="img/product information.png" alt="product information" />
                         <img class="productInformationPicture" src="img/product information picture.png" alt="product information picture" />
-                    </span>
+                    </span> -->
+                    <table class="tabelDesc">
+                        <tbody id="tableBody">
+                            <!-- <tr>
+                                <th>Размер</th>
+                                <td>M/L/XL/XXL</td>
+                            </tr>
+                            <tr>
+                                <th>Цвет</th>
+                                <td>Белый, синий</td>
+                            </tr>
+                            <tr>
+                                <th>Материал</th>
+                                <td>75% хлопок, 25% вискоза</td>
+                            </tr> -->
+                        </tbody>
+                    </table>
 
                     <div class="sizeChartText">Размерная сетка</div>
-                    <div><img class="sizeChart" src="img/size chart.png" alt="Размерная сетка" /></div>
-                    <div><img class="twoColors" src="img/two colors.png" alt="Два цвета" /></div>
+                    <table class="tabelDesc2">
+                        <!-- <caption><h3>Размерная сетка</h3></caption> -->
+                            <tbody>
+                                <tr>
+                                    <th>Размер</th>
+                                    <th>Длина одежды</th>
+                                    <th>Обхват груди</th>
+                                    <th>Ширина плеч</th>
+                                    <th>Ширина рукавов</th>
+                                </tr>
+                                <tr>
+                                    <td>M</td>
+                                    <td>67</td>
+                                    <td>111</td>
+                                    <td>56.5</td>
+                                    <td>55</td>
+                                </tr>
+                                <tr>
+                                    <td>L</td>
+                                    <td>68</td>
+                                    <td>119</td>
+                                    <td>57.5</td>
+                                    <td>56</td>
+                                </tr>
+                                <tr>
+                                    <td>XL</td>
+                                    <td>69</td>
+                                    <td>127</td>
+                                    <td>58.5</td>
+                                    <td>57</td>
+                                </tr>
+                                <tr>
+                                    <td>XXL</td>
+                                    <td>69</td>
+                                    <td>135</td>
+                                    <td>59.5</td>
+                                    <td>58</td>
+                                </tr>
+                            </tbody>
+                    </table>
+                    <!-- <div><img class="sizeChart" src="img/size chart.png" alt="Размерная сетка" /></div> -->
+                    <div id="colorsImg"></div>
                     <div class="proportionalChartText">Пропорциональная таблица</div>
-                    <div><img class="proportionalChart" src="img/proportional chart.png" alt="Пропорциональная таблица" /></div>
+                    <!-- <div><img class="proportionalChart" src="img/proportional chart.png" alt="Пропорциональная таблица" /></div> -->
+                    <table class="tabelDesc3">
+                        <tbody>
+                            <tr>
+                                <th>Размер</th>
+                                <td>M</td>
+                                <td>L</td>
+                                <td>XL</td>
+                                <td>XXL</td>
+                            </tr>
+                            <tr>
+                                <th>Рост (см)</th>
+                                <td>155-175</td>
+                                <td>160-180</td>
+                                <td>165-185</td>
+                                <td>170-190</td>
+                            </tr>
+                            <tr>
+                                <th>Вес (кг)</th>
+                                <td>50-60</td>
+                                <td>60-70</td>
+                                <td>70-80</td>
+                                <td>80-90</td>
+                            </tr>
+                        </tbody>
+                    </table>
                     <div class="mainText2">Обязательно обратите внимание на другую расцветку, не менее интересную и
                         привлекательную</div>
-                    <div><img class="frontAndBackViews" src="img/front and back views.png" alt="вид спереди и сзади" /></div>
+                    <div id="frontBackPic"></div>
                     <span>
                         <p class="text1">вид спереди</p>
                         <p class="text2">вид сзади</p>
                     </span>
                     <div class="clothingDetailsText">Детали одежды</div>
-                    <p class="detailspictures">
-                        <img class="leftPicture" src="img/left.png" alt="Фотография 1">
-                        <img class="rightPicture" src="img/right.png" alt="Фотография 2">
-                        <img class="footPicture" src="img/foot picture.png" alt="Фотография 3">
-                    </p>
-                    </div>
+                    
+                        <div id="leftImg"></div>
+                        <div id="rightImg"></div>
+                        <div id="footImg"></div>
+                    
                 </div>
-                </main>
-    <footer class="Footer">
-        <div><img class="logoPicture2" src="../main_page/img/logo.png" alt="AcademiaSHop" align="center"></div>
-        <p class="footer-left">ACADEMIA SHOP</p>
-        <p class="footer-right">Оформление заказа</br>Способ оплаты</br>Способ доставки</p>
-        <p class="footer-centered">Адрес: г. Бишкек, ул. Патриса Лумумбы 139б</br>Тел.:+(996)503 31 03 99</p>
-    </footer>
-    <script src="details.js"></script>
-    <script type="text/javascript">
-        loadDetails();
-    </script>
+            </main>
+            <footer class="Footer">
+                <div><img class="logoPicture2" src="../main_page/img/logo.png" alt="AcademiaSHop" align="center"></div>
+                <p class="footer-left">ACADEMIA SHOP</p>
+                <p class="footer-right">Оформление заказа</br>Способ оплаты</br>Способ доставки</p>
+                <p class="footer-centered">Адрес: г. Бишкек, ул. Патриса Лумумбы 139б</br>Тел.:+(996)503 31 03 99</p>
+            </footer>
+            <script src="details.js"></script>
+            <script type="text/javascript">
+                loadDetails();
+            </script>
+        </div>
+    </div>
 </body>
 
 </html>
