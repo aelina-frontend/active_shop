@@ -1,10 +1,30 @@
 var itemsList = [
     {
+        name: "Батник",
+        mainPicture: "img/batnik.png",        
+        price: 2700,
+        sizes: ["M","L","XL","XXL"],
+        id: 1,
+        colors: {
+            imgs: ["img/batnik.png","img/black.jpg"],
+            alts: ["beige","black"],
+        },
+        miniPictures: ["img/batnik.png","img/back.jpg","img/33.png","img/photo_2023-08-06_17-26-47 1.png"],
+        desc: "Удобный, стильный и очень качественный выбор для повседневного использования. Сезон модели: осень-весна и лето.",
+        tabelDesc: {
+            names: ["Размер", "Цвет", "Материал"],
+            vals: ["M/L/XL/XXL","Белый, синий","75% хлопок, 25% вискозы"]
+        },
+        twoColors: "img/photo_2023-08-06_17-43-44.jpg",
+        backFrontImg: "img/photo_2023-08-06_17-37-22.jpg",
+        dressDetails: ["img/photo_2023-08-06_17-26-30.jpg","img/photo_2023-08-06_17-26-43.jpg", "img/photo_2023-08-06_17-20-05.jpg"],
+    },
+    {
         name: "Кофта",
         mainPicture: "img/main pic.png",        
         price: 3700,
-        sizes: ["M","L","XL","XXL"],
-        id: 1,
+        sizes: ["M","L","XL"],
+        id: 2,
         colors: {
             imgs: ["img/white.png","img/blue.png"],
             alts: ["white","blue"],
@@ -18,25 +38,6 @@ var itemsList = [
         twoColors: "img/two colors.png",
         backFrontImg: "img/front and back views.png",
         dressDetails: ["img/left.png","img/right.png", "img/foot picture.png"],
-    },
-    {
-        name: "Кофта",
-        mainPicture: "../main_page/img/2.png",        
-        price: 4200,
-        sizes: ["M","L","XL"],
-        id: 2,
-        colors: {
-            imgs: ["img/white.png","img/blue.png"],
-            alts: ["white","blue"],
-        },
-        miniPictures: ["img/1.png","img/2.png","img/3.png","img/4.png"],
-        desc: "Удобный, стильный и очень качественный выбор для повседневного использования. Сезон модели: осень-весна и лето.",
-        tabelDesc: {
-            columns: ["Размер", "Цвет", "Материал"],
-            rows: ["M/L/XL/XXL","Белый, синий","75% хлопок, 25% вискозы"]
-        },
-        backFrontImg: "img/front and back views.png",
-        dressDetails: ["img/left.png","img/right.png"],
     },    
 ];
 

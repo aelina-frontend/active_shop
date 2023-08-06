@@ -76,6 +76,30 @@
     .productInformation  {
         margin-top: 4%;
     }
+    .twoColors {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .frontAndBackViews {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .leftPicture {
+        margin-left: 10%;
+        width: 39%;
+        border-radius: 10px;
+    }
+    .rightPicture {
+        margin-right: 10%;
+        width: 39%;
+        border-radius: 10px;
+    } 
+    .footPicture {
+        margin-top: 1%;
+        margin-left: 10%;
+        width: 80%;
+        border-radius: 20px;
+    }
     .footer-left {
         display: none;
     }
@@ -225,17 +249,20 @@
     .leftPicture {
         margin-top: 2%;
         margin-left: 10%;
-        width: 40%;
+        width: 38%;
+        border-radius: 10px;
     }
     .rightPicture {
         margin-top: 3%;
         margin-right: 10%;
-        width: 40%;
+        width: 38%;
+        border-radius: 10px;
     } 
     .footPicture {
         margin-top: 1%;
         margin-left: 10%;
         width: 80%;
+        border-radius: 20px;
     }
     .Footer {
         height: 20rem;
